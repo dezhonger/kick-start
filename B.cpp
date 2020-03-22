@@ -49,7 +49,7 @@ int gcd (int a, int b) {
     return b == 0 ? a : gcd (b, a % b);
 }
 
-const int maxn = 110;
+const int maxn = 2020;
 int a[maxn][maxn];
 int T, k, p, n;
 int dp[maxn][maxn];
